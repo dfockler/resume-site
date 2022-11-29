@@ -2,15 +2,274 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link type="image/x-icon" rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAHklEQVQ4T2NkYGD4z0ABYBw1gGE0DBhGw4BhWIQBAE5OEAELnjVHAAAAAElFTkSuQmCC">
+  <title>Dan Fockler</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="main.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    <p>Lots of things on the internet</p>
+  <div class="name">
+    <h1>Dan <span class="red">F</span><span class="orange">o</span><span class="yellow">c</span><span
+        class="green">k</span><span class="blue">l</span><span class="purple">e</span><span class="pink">r</span></h1>
+    <h4>Programmer</h4>
+    <div>
+      <a href="https://github.com/dfockler">Github</a>
+      <a href="https://twitter.com/danfockler">Twitter</a>
+      <a href="mailto:danfockler@fastmail.com">Email</a>
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <a href="#projects">
+        <li>Projects</li>
+      </a>
+      <a href="#work">
+        <li>Work</li>
+      </a>
+      <a href="#education">
+        <li>Education</li>
+      </a>
+      <a href="#writing">
+        <li>Reading & Writing</li>
+      </a>
+    </ul>
+  </nav>
+  <section id="projects" class="projects">
+    <h2 class="header">Projects</h2>
+    <div class="project">
+      <a href="https://github.com/dfockler/pietr"><h4>Pietr</h4></a>
+      <ul>
+        <li>ruby</li>
+      </ul>
+      <p>A <a href="http://www.dangermouse.net/esoteric/piet.html">Piet</a> interpreter written in Ruby.</p>
+    </div>
+    <hr>
+    <div class="project">
+      <a href="https://github.com/dfockler/matrix"><h4>Matrix</h4></a>
+      <ul>
+        <li>rust</li>
+      </ul>
+      <p>A small numeric matrix manipulation library in Rust. Mostly to learn how to use traits and generic types
+      </p>
+    </div>
+    <hr>
+    <div class="project">
+      <a href="https://github.com/dfockler/crappy-lang"><h4>Crappy Lang</h4></a>
+      <ul>
+        <li>rust</li>
+      </ul>
+      <p>An interpreted Lisp-like 'programming language' in Rust, complete with a simple REPL</p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>Writer's Saga</h4>
+      <ul>
+        <li>ruby</li>
+        <li>sqlite</li>
+      </ul>
+      <p>A collaborative writing webapp designed for multiple players to write a story together</p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>TableSoup</h4>
+      <ul>
+        <li>javascript</li>
+        <li>nodejs</li>
+        <li>socket.io</li>
+        <li>html</li>
+        <li>css</li>
+        <li>drupal</li>
+      </ul>
+      <p>A real-time online game board to allow multiple players to play a board game over the internet. Built
+        dice tools, card deck tools, and drag and drop interface for image upload. Also had a room system to
+        allow for multiple boards on the same server.</p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>Senior Project ~ Chinese Calligraphy Analysis</h4>
+      <ul>
+        <li>python</li>
+        <li>mysql</li>
+      </ul>
+      <p>Worked with group members to build a system take scanned images of calligraphy pages, segment them per
+        character, then clean the characters and add them to a database to later be used for handwriting
+        analysis.</p>
+    </div>
+    <hr>
+    <div class="project">
+      <a href="https://github.com/pulls?q=is%3Apr+author%3Adfockler+is%3Aclosed"><h4>Open Source Contributions</h4></a>
+      <ul>
+        <li>rust</li>
+        <li>ruby</li>
+        <li>python</li>
+        <li>php</li>
+      </ul>
+      <p>Small commits to multiple projects ~ <a href="https://github.com/rust-lang/rust">rust, </a><a
+          href="https://github.com/panicbit/glitter">glitter, </a><a
+          href="https://github.com/manastech/crystal">crystal, </a><a href="https://github.com/YorickPeterse/oga">oga,
+        </a><a href="https://github.com/scrapy/scrapyd">scrapyd, </a><a
+          href="https://github.com/drfeelngood/resque-batched-job">resque-batched-job, </a><a
+          href="https://github.com/dfockler/craft-recurring-dates">craft-recurring-dates</a></p>
+    </div>
+  </section>
+  <section id="work" class="work">
+    <h2 class="header">Work</h2>
+    <div class="project">
+      <h4>Corista ~ 2019-Current</h4>
+      <ul>
+        <li>ruby</li>
+        <li>rails</li>
+        <li>javascript</li>
+        <li>react</li>
+      </ul>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>MammothHR ~ 2017-2019</h4>
+      <ul>
+        <li>ruby</li>
+        <li>rails</li>
+        <li>javascript</li>
+        <li>ember</li>
+        <li>postgres</li>
+        <li>solr</li>
+        <li>scss</li>
+        <li>aws</li>
+      </ul>
+      <p>Help to build and maintain a medium scale Rails & Ember application including search features using Solr
+        and devops through AWS</p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>Freelance Web Development ~ 2014-Current</h4>
+      <ul>
+        <li>ruby</li>
+        <li>rails</li>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+        <li>elasticsearch</li>
+        <li>mongodb</li>
+      </ul>
+      <p>Freelance work doing projects in both Rails & Wordpress, building out client websites</p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>Registered Agents Inc. ~ 2014-2015</h4>
+      <ul>
+        <li>ruby</li>
+        <li>python</li>
+        <li>scrapy</li>
+        <li>javascript</li>
+        <li>selenium</li>
+        <li>postgres</li>
+      </ul>
+      <p>Designed, built & maintained a Ruby/Python on-demand web scraping engine & API. Responsible for API
+        design, server administration, job monitoring, & database design.</p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>NXNW ~ 2013-2014</h4>
+      <ul>
+        <li>drupal</li>
+        <li>php</li>
+        <li>craftcms</li>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+      </ul>
+      <p>Worked on a team to produce custom websites for clients in Drupal. Went through the entire development
+        lifecycle with the team, including client meetings and wireframing meetings. Our team used the LEAN /
+        agile work methodology. </p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>SiteCrafting Inc. ~ 2012-2013</h4>
+      <ul>
+        <li>php</li>
+        <li>drupal</li>
+        <li>javascript</li>
+        <li>html</li>
+        <li>css</li>
+        <li>xcode</li>
+        <li>phonegap</li>
+      </ul>
+      <p>Built PHP templates for various client websites. Also worked on projects using PhoneGap and Xcode to port
+        an app to iPhone and Android.</p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>Tech Con at EWU Computer Lab ~ 2008-2012</h4>
+      <ul>
+        <li>windows 7</li>
+        <li>mac osx</li>
+        <li>faronics deepfreeze</li>
+      </ul>
+      <p>Provided helpdesk and tech support for students in the computer lab. Also was responsible for maintaining
+        the computers in the lab, as well as imaging and updating the operating systems on the lab computers.
+      </p>
+    </div>
+  </section>
+  <section id="education" class="education">
+    <h2 class="header">Education</h2>
+    <div class="project">
+      <h4>Eastern Washington University ~ 2008-2012 BS in Computer Science</h4>
+      <ul>
+        <li>java</li>
+        <li>python</li>
+        <li>c</li>
+        <li>fpga</li>
+        <li>verilog</li>
+      </ul>
+      <p>Graduated in 2012 with a 3.59 GPA. Some of the classes taken were C & Unix, Embedded Systems, Android
+        Development, Relational Databases, Linear Algebra, Discrete Math, Algorithms, Data Structures, Software
+        Engineering</p>
+    </div>
+  </section>
+  <section id="writing" class="writing">
+    <h2 class="header">Reading & Writing</h2>
+    <div class="project">
+      <h4>Wrote: Rust HTTP Server Tutorial <a href="https://dfockler.github.io/2016/05/20/web-server.html"><i
+            class="mdi mdi-link-variant"></i></a></h4>
+      <ul>
+        <li>rust</li>
+        <li>http</li>
+      </ul>
+      <p>Showed how to build a basic small HTTP server in Rust, helping discover some of Rust's TCP API functions.
+      </p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>Wrote: <a href="https://dfockler.github.io">Dev Blog</a></h4>
+      <p>Random ideas and tutorials about programming</p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>Read: Practical Object Oriented Programming in Ruby</h4>
+      <ul>
+        <li>ruby</li>
+      </ul>
+      <p>This was a great book about Ruby, OOP, Testing, and Interface Design</p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>Read: The Rust Programming Language Book</h4>
+      <ul>
+        <li>rust </li>
+      </ul>
+      <p>A great document to learn Rust Programming, and a great example of technical writing</p>
+    </div>
+    <hr>
+    <div class="project">
+      <h4>Read: Confident Ruby</h4>
+      <ul>
+        <li>ruby</li>
+      </ul>
+      <p>A pragmatic guide to making your Ruby functions tell a better story. Lot's of practical tips to make duck
+        typing more useful</p>
+    </div>
+  </section>
 </body>
 
 </html>
